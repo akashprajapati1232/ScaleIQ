@@ -1,0 +1,59 @@
+/* ============================================================
+   ScaleIQ — Auth Layout CSS
+   ============================================================ */
+
+.auth-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  background-image: var(--gradient-mesh);
+}
+
+.auth-layout__header {
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.auth-layout__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-decoration: none;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  transition: opacity var(--transition-fast);
+}
+
+.auth-layout__logo:hover {
+  opacity: 0.85;
+}
+
+.auth-layout__main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8) var(--space-4);
+}
+
+.auth-layout__footer {
+  padding: var(--space-5) var(--space-6);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.auth-layout__footer p {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.auth-layout__footer a {
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.auth-layout__footer a:hover {
+  color: var(--color-primary-light);
+}

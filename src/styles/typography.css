@@ -1,0 +1,92 @@
+/* ============================================================
+   ScaleIQ — Typography System
+   ============================================================ */
+
+/* ── Headings ─────────────────────────────────────────── */
+.h1 {
+  font-size: var(--font-size-6xl);
+  font-weight: var(--font-weight-extrabold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.h2 {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-snug);
+}
+
+.h3 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-snug);
+}
+
+.h4 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-snug);
+}
+
+.h5 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+.h6 {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* ── Body ─────────────────────────────────────────────── */
+.body-lg {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-relaxed);
+}
+
+.body-base {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
+
+.body-sm {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+.body-xs {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-normal);
+}
+
+/* ── Labels ───────────────────────────────────────────── */
+.label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wider);
+  text-transform: uppercase;
+}
+
+.label-md {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+/* ── Responsive Typography ────────────────────────────── */
+@media (max-width: 1023px) {
+  .h1 { font-size: var(--font-size-5xl); }
+  .h2 { font-size: var(--font-size-3xl); }
+}
+
+@media (max-width: 767px) {
+  .h1 { font-size: var(--font-size-4xl); }
+  .h2 { font-size: var(--font-size-2xl); }
+  .h3 { font-size: var(--font-size-xl); }
+}
+
+@media (max-width: 479px) {
+  .h1 { font-size: var(--font-size-3xl); }
+}
