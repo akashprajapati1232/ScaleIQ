@@ -61,8 +61,8 @@ export const ComingSoon: React.FC = () => {
   useEffect(() => {
     document.title = 'Coming Soon — ScaleIQ';
 
-    // Count down to a fixed launch date
-    const launchDate = new Date('2025-10-01T00:00:00Z').getTime();
+    // Count down to a fixed launch date in the future
+    const launchDate = new Date('2026-12-31T23:59:59Z').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
